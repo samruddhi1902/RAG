@@ -226,6 +226,6 @@ def preprocess_vectordbs(files, embedding_model_name, size, overlap):
     client = preprocess_qdrant(text, embeddings, client_url, client_api_key, collection_name)
     st.success("Preprocessing Qdrant Complete!")"""
 
-    return index, docstore, index_to_docstore_id, vector_store, retriever,client,pinecone_index,embedding_model_global,vs
+    return index, docstore, index_to_docstore_id, vector_store, retriever,pinecone_index,embedding_model_global,vs
 
 
